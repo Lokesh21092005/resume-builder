@@ -312,7 +312,7 @@ const LandingPage = () => {
       <footer className={landingPageStyles.footer}>
         <div className={landingPageStyles.footerContainer}>
           <p className={landingPageStyles.footerText}>
-            Crafted with <span className={landingPageStyles.footerHeart}>❤️</span> by{' '}
+            Crafted with <span className={landingPageStyles.footerHeart}>❤️</span> by{'Lokesh'}
           </p>
         </div>
       </footer>
