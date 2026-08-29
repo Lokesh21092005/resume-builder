@@ -18,7 +18,8 @@ const PORT = process.env.PORT || 4000;
 app.use(
   cors({
     origin: [
-      "http://localhost:5173"
+      "http://localhost:5173",
+      "https://resume-builder-lucky-2f7e.vercel.app"
       ],
     credentials: true,
   })
@@ -38,7 +39,7 @@ app.use(
   '/uploads',
   express.static(path.join(__dirname, 'uploads'), {
     setHeaders: (res, _path) => {
-      res.set('Access-Control-Allow-Origin', 'https://resume-builder-lucky-2f7e.vercel.app/');
+      res.set('Access-Control-Allow-Origin', 'https://resume-builder-lucky-2f7e.vercel.app');
     },
   })
 );
