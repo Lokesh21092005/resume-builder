@@ -146,7 +146,7 @@ const LandingPage = () => {
               </div>
 
               {/* Stats */}
-              <div className={landingPageStyles.statsContainer}>
+              {/* <div className={landingPageStyles.statsContainer}>
                 {[
                   { value: '50K+', label: 'Resumes Created', gradient: 'from-violet-600 to-fuchsia-600' },
                   { value: '4.9★', label: 'User Rating', gradient: 'from-orange-500 to-red-500' },
@@ -157,7 +157,7 @@ const LandingPage = () => {
                     <div className={landingPageStyles.statLabel}>{stat.label}</div>
                   </div>
                 ))}
-              </div>
+              </div> */}
             </div>
 
             {/* Right Content - SVG Illustration */}
@@ -312,7 +312,7 @@ const LandingPage = () => {
       <footer className={landingPageStyles.footer}>
         <div className={landingPageStyles.footerContainer}>
           <p className={landingPageStyles.footerText}>
-            Crafted with <span className={landingPageStyles.footerHeart}>❤️</span> by{'Lokesh'}
+            Crafted with <span className={landingPageStyles.footerHeart}>❤️</span> by{' Lokesh'}
           </p>
         </div>
       </footer>
