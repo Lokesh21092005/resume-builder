@@ -119,17 +119,17 @@ const Dashboard = () => {
     fetchAllResumes();
   }, []);
 
-  const getCompletionColor = (completion) => {
-    if (completion >= 90) return 'bg-green-500';
-    if (completion >= 70) return 'bg-yellow-500';
-    return 'bg-red-500';
-  };
+  // const getCompletionColor = (completion) => {
+  //   if (completion >= 90) return 'bg-green-500';
+  //   if (completion >= 70) return 'bg-yellow-500';
+  //   return 'bg-red-500';
+  // };
 
-  const getCompletionStatus = (completion) => {
-    if (completion < 50) return "Getting Started";
-    if (completion < 80) return "Almost There";
-    return "Ready to Go!";
-  };
+  // const getCompletionStatus = (completion) => {
+  //   if (completion < 50) return "Getting Started";
+  //   if (completion < 80) return "Almost There";
+  //   return "Ready to Go!";
+  // };
 
   const handleDeleteResume = async () => {
     if (!resumeToDelete) return;
